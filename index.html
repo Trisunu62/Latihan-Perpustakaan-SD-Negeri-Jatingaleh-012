@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan SD Negeri Jatingaleh 01</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Fredoka untuk kesan modern & ramah anak -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .animate-marquee {
+      display: inline-block;
+      white-space: nowrap;
+      animation: marquee 16s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-sky-300 via-sky-200 via-40% to-lime-300 min-h-screen flex flex-col justify-between overflow-x-hidden text-slate-800">
+
+  <!-- Running Text Header -->
+  <div class="w-full bg-amber-300 border-b-4 border-orange-400 py-2.5 shadow-md overflow-hidden relative">
+    <div class="animate-marquee font-bold text-lg sm:text-xl md:text-2xl text-red-600 drop-shadow-[0_1px_1px_rgba(255,255,255,1)]">
+      🌟 Datang, Membaca dan Melihat Dunia 🌟 Selamat Datang di Perpustakaan SD Negeri Jatingaleh 01 📚✨
+    </div>
+  </div>
+
+  <!-- Header Banner -->
+  <header class="text-center my-4 sm:my-6 mx-4 bg-white/95 p-4 sm:p-6 rounded-3xl border-4 border-dashed border-pink-400 shadow-xl max-w-2xl sm:mx-auto">
+    <h1 class="text-xl sm:text-3xl md:text-4xl font-extrabold text-blue-700 tracking-wide drop-shadow-sm">
+      📚 PERPUSTAKAAN DIGITAL 📚
+    </h1>
+    <p class="text-indigo-600 text-base sm:text-xl font-bold mt-1">SD Negeri Jatingaleh 01</p>
+  </header>
+
+  <main class="container mx-auto px-4 max-w-4xl space-y-8 sm:space-y-10">
+
+    <!-- Section Kategori Media -->
+    <section>
+      <h2 class="text-center text-white font-bold text-xl sm:text-2xl drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)] mb-4 sm:mb-6">
+        🎈 Pilih Kategori Buku & Media 🎈
+      </h2>
+      
+      <!-- Responsive Grid: 2 Kolom di HP, 3 Kolom di Tablet, 5 Kolom di Laptop -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5">
+        
+        <!-- Buku Pelajaran -->
+        <a href="https://sites.google.com/view/juli-perpussdnjatingaleh01/home" target="_blank" onclick="playAudioFx('click')"
+           class="group bg-white rounded-3xl p-4 sm:p-5 text-center border-4 border-rose-400 shadow-[0_6px_0_#fb7185] hover:shadow-[0_10px_0_#fb7185] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_2px_0_#fb7185] transition-all">
+          <div class="text-4xl sm:text-5xl mb-2 group-hover:scale-110 transition-transform">📕</div>
+          <h3 class="font-bold text-rose-500 text-sm sm:text-base md:text-lg">Buku Pelajaran</h3>
+        </a>
+
+        <!-- Buku Fiksi -->
+        <a href="https://sites.google.com/view/juli-perpussdnjatingaleh01/home" target="_blank" onclick="playAudioFx('click')"
+           class="group bg-white rounded-3xl p-4 sm:p-5 text-center border-4 border-amber-400 shadow-[0_6px_0_#fbbf24] hover:shadow-[0_10px_0_#fbbf24] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_2px_0_#fbbf24] transition-all">
+          <div class="text-4xl sm:text-5xl mb-2 group-hover:scale-110 transition-transform">🦄</div>
+          <h3 class="font-bold text-amber-500 text-sm sm:text-base md:text-lg">Buku Fiksi</h3>
+        </a>
+
+        <!-- Buku Non Fiksi -->
+        <a href="https://sites.google.com/view/juli-perpussdnjatingaleh01/home" target="_blank" onclick="playAudioFx('click')"
+           class="group bg-white rounded-3xl p-4 sm:p-5 text-center border-4 border-cyan-400 shadow-[0_6px_0_#22d3ee] hover:shadow-[0_10px_0_#22d3ee] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_2px_0_#22d3ee] transition-all">
+          <div class="text-4xl sm:text-5xl mb-2 group-hover:scale-110 transition-transform">🔬</div>
+          <h3 class="font-bold text-cyan-600 text-sm sm:text-base md:text-lg">Buku Non Fiksi</h3>
+        </a>
+
+        <!-- Audio -->
+        <a href="https://sites.google.com/view/juli-perpussdnjatingaleh01/home" target="_blank" onclick="playAudioFx('click')"
+           class="group bg-white rounded-3xl p-4 sm:p-5 text-center border-4 border-teal-400 shadow-[0_6px_0_#2dd4bf] hover:shadow-[0_10px_0_#2dd4bf] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_2px_0_#2dd4bf] transition-all">
+          <div class="text-4xl sm:text-5xl mb-2 group-hover:scale-110 transition-transform">🎧</div>
+          <h3 class="font-bold text-teal-600 text-sm sm:text-base md:text-lg">Audio</h3>
+        </a>
+
+        <!-- Video -->
+        <a href="https://sites.google.com/view/juli-perpussdnjatingaleh01/home" target="_blank" onclick="playAudioFx('click')"
+           class="group bg-white rounded-3xl p-4 sm:p-5 text-center border-4 border-purple-400 shadow-[0_6px_0_#c084fc] hover:shadow-[0_10px_0_#c084fc] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_2px_0_#c084fc] transition-all col-span-2 sm:col-span-1">
+          <div class="text-4xl sm:text-5xl mb-2 group-hover:scale-110 transition-transform">🎬</div>
+          <h3 class="font-bold text-purple-600 text-sm sm:text-base md:text-lg">Video</h3>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Section Kuis Interaktif 2D -->
+    <section class="max-w-2xl mx-auto">
+      <div class="bg-white border-4 sm:border-8 border-yellow-300 rounded-3xl p-5 sm:p-8 shadow-[0_10px_0_#f59e0b] relative">
+        <div class="bg-emerald-400 text-white font-bold text-center py-1 px-4 rounded-full w-max mx-auto -mt-9 sm:-mt-11 mb-4 border-2 border-white shadow text-sm sm:text-base">
+          🎮 Kuis Pintar Literasi
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="w-full bg-slate-200 rounded-full h-3.5 sm:h-4 mb-5 border border-slate-300 overflow-hidden">
+          <div id="progressFill" class="bg-emerald-500 h-full w-0 transition-all duration-300"></div>
+        </div>
+
+        <!-- Pertanyaan -->
+        <div id="quizBox">
+          <h3 id="questionText" class="text-base sm:text-xl md:text-2xl font-bold text-center text-slate-800 mb-5 min-h-[55px] flex items-center justify-center">
+            Memuat pertanyaan...
+          </h3>
+          <div id="optionsGrid" class="grid grid-cols-1 gap-2.5 sm:gap-3"></div>
+        </div>
+
+        <!-- Hasil Kuis -->
+        <div id="resultBox" class="hidden text-center py-3">
+          <div id="scoreEmoji" class="text-5xl sm:text-6xl my-2">🏆</div>
+          <h3 class="text-xl sm:text-2xl font-bold text-slate-800">Kuis Selesai!</h3>
+          <p id="scoreText" class="text-lg sm:text-xl font-extrabold text-indigo-600 my-2"></p>
+          <p id="resultMessage" class="text-slate-600 mb-5 text-sm sm:text-base"></p>
+          
+          <div class="flex flex-col gap-3">
+            <a href="https://sites.google.com/view/juli-perpussdnjatingaleh01/home" target="_blank" onclick="playAudioFx('click')"
+               class="bg-orange-500 text-white font-bold py-3 px-5 rounded-2xl shadow-[0_4px_0_#c2410c] hover:bg-orange-600 active:translate-y-1 active:shadow-[0_1px_0_#c2410c] transition-all text-sm sm:text-base">
+              🚀 Kunjungi Web Perpustakaan Digital
+            </a>
+            <button onclick="restartQuiz()" 
+                    class="bg-cyan-500 text-white font-bold py-3 px-5 rounded-2xl shadow-[0_4px_0_#0891b2] hover:bg-cyan-600 active:translate-y-1 active:shadow-[0_1px_0_#0891b2] transition-all text-sm sm:text-base">
+              🔄 Main Lagi
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 sm:py-6 mt-8 bg-white/80 border-t-2 border-emerald-400">
+    <p class="text-emerald-700 font-bold text-xs sm:text-sm md:text-base">
+      © SDN Jatingaleh 01 - Rajin Membaca Pangkal Pandai
+    </p>
+  </footer>
+
+  <!-- Web Audio API & Logic Kuis -->
+  <script>
+    // Inisialisasi AudioContext Web Audio API
+    let audioCtx = null;
+
+    function getAudioContext() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    // Generator Efek Suara Sintetis (Tanpa File Eksternal)
+    function playAudioFx(type) {
+      try {
+        const ctx = getAudioContext();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+
+        const now = ctx.currentTime;
+
+        if (type === 'click') {
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(400, now);
+          osc.frequency.exponentialRampToValueAtTime(800, now + 0.08);
+          gain.gain.setValueAtTime(0.2, now);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
+          osc.start(now);
+          osc.stop(now + 0.08);
+        } else if (type === 'correct') {
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(523.25, now); // C5
+          osc.frequency.setValueAtTime(659.25, now + 0.1); // E5
+          osc.frequency.setValueAtTime(783.99, now + 0.2); // G5
+          gain.gain.setValueAtTime(0.25, now);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + 0.35);
+          osc.start(now);
+          osc.stop(now + 0.35);
+        } else if (type === 'wrong') {
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220, now); // A3
+          osc.frequency.setValueAtTime(164.81, now + 0.15); // E3
+          gain.gain.setValueAtTime(0.25, now);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + 0.35);
+          osc.start(now);
+          osc.stop(now + 0.35);
+        } else if (type === 'win') {
+          // Melodi singkat kemenangan
+          const notes = [523.25, 659.25, 783.99, 1046.50];
+          notes.forEach((freq, i) => {
+            const noteOsc = ctx.createOscillator();
+            const noteGain = ctx.createGain();
+            noteOsc.connect(noteGain);
+            noteGain.connect(ctx.destination);
+            noteOsc.frequency.setValueAtTime(freq, now + i * 0.1);
+            noteGain.gain.setValueAtTime(0.2, now + i * 0.1);
+            noteGain.gain.exponentialRampToValueAtTime(0.01, now + (i + 1) * 0.1);
+            noteOsc.start(now + i * 0.1);
+            noteOsc.stop(now + (i + 1) * 0.1);
+          });
+        }
+      } catch (e) {
+        // Fallback aman jika audio diblokir browser
+      }
+    }
+
+    const questions = [
+      {
+        q: "Apa motto utama Perpustakaan SD Negeri Jatingaleh 01?",
+        options: [
+          "Datang, Membaca dan Melihat Dunia",
+          "Bermain dan Belajar Bersama",
+          "Membaca Cepat dan Praktis",
+          "Rajin Pangkal Pandai"
+        ],
+        answer: 0
+      },
+      {
+        q: "Kategori mana yang berisi cerita rekaan seperti dongeng dan fabel?",
+        options: ["Buku Pelajaran", "Buku Non Fiksi", "Buku Fiksi", "Video"],
+        answer: 2
+      },
+      {
+        q: "Apa yang harus kita lakukan saat berada di perpustakaan?",
+        options: [
+          "Makan snack dan es krim",
+          "Menjaga ketenangan dan kerapihan",
+          "Berlari-lari dengan teman",
+          "Mencoret-coret halaman buku"
+        ],
+        answer: 1
+      },
+      {
+        q: "Kategori media yang berisi konten lagu atau dongeng suara adalah...",
+        options: ["Buku Pelajaran", "Audio", "Video", "Buku Fiksi"],
+        answer: 1
+      },
+      {
+        q: "Mengapa membaca buku sangat penting bagi siswa SD?",
+        options: [
+          "Agar cepat tidur siang",
+          "Supaya menambah pengetahuan dan wawasan",
+          "Agar buku cepat habis",
+          "Hanya untuk menghabiskan waktu"
+        ],
+        answer: 1
+      }
+    ];
+
+    let currentQuestion = 0;
+    let score = 0;
+    let canAnswer = true;
+
+    function loadQuestion() {
+      canAnswer = true;
+      const qData = questions[currentQuestion];
+      document.getElementById('questionText').innerText = `${currentQuestion + 1}. ${qData.q}`;
+      
+      const optionsGrid = document.getElementById('optionsGrid');
+      optionsGrid.innerHTML = '';
+
+      const progress = (currentQuestion / questions.length) * 100;
+      document.getElementById('progressFill').style.width = `${progress}%`;
+
+      qData.options.forEach((opt, index) => {
+        const btn = document.createElement('button');
+        btn.className = 'w-full text-left bg-sky-50 border-2 border-sky-400 font-bold text-sky-800 p-2.5 sm:p-3.5 rounded-2xl shadow-[0_4px_0_#38bdf8] hover:bg-sky-100 active:translate-y-1 active:shadow-[0_1px_0_#38bdf8] transition-all text-xs sm:text-base';
+        btn.innerText = `${String.fromCharCode(65 + index)}. ${opt}`;
+        btn.onclick = () => checkAnswer(index, btn);
+        optionsGrid.appendChild(btn);
+      });
+    }
+
+    function checkAnswer(selectedIndex, btnElement) {
+      if (!canAnswer) return;
+      canAnswer = false;
+
+      const qData = questions[currentQuestion];
+      const allButtons = document.querySelectorAll('#optionsGrid button');
+
+      if (selectedIndex === qData.answer) {
+        btnElement.className = 'w-full text-left bg-emerald-100 border-2 border-emerald-500 font-bold text-emerald-800 p-2.5 sm:p-3.5 rounded-2xl shadow-[0_4px_0_#10b981] text-xs sm:text-base';
+        score += 20;
+        playAudioFx('correct');
+      } else {
+        btnElement.className = 'w-full text-left bg-rose-100 border-2 border-rose-500 font-bold text-rose-800 p-2.5 sm:p-3.5 rounded-2xl shadow-[0_4px_0_#f43f5e] text-xs sm:text-base';
+        allButtons[qData.answer].className = 'w-full text-left bg-emerald-100 border-2 border-emerald-500 font-bold text-emerald-800 p-2.5 sm:p-3.5 rounded-2xl shadow-[0_4px_0_#10b981] text-xs sm:text-base';
+        playAudioFx('wrong');
+      }
+
+      setTimeout(() => {
+        currentQuestion++;
+        if (currentQuestion < questions.length) {
+          loadQuestion();
+        } else {
+          showResult();
+        }
+      }, 1200);
+    }
+
+    function showResult() {
+      document.getElementById('progressFill').style.width = '100%';
+      document.getElementById('quizBox').classList.add('hidden');
+      const resultBox = document.getElementById('resultBox');
+      resultBox.classList.remove('hidden');
+
+      document.getElementById('scoreText').innerText = `Skor Kamu: ${score} / 100`;
+
+      const emoji = document.getElementById('scoreEmoji');
+      const msg = document.getElementById('resultMessage');
+
+      if (score === 100) {
+        emoji.innerText = '🌟';
+        msg.innerText = 'Luar Biasa! Kamu Juara Literasi SDN Jatingaleh 01!';
+        playAudioFx('win');
+      } else if (score >= 60) {
+        emoji.innerText = '📚';
+        msg.innerText = 'Bagus Sekali! Yuk makin rajin membaca buku!';
+        playAudioFx('win');
+      } else {
+        emoji.innerText = '💪';
+        msg.innerText = 'Jangan berkecil hati, ayo baca lagi dan coba kembali!';
+        playAudioFx('wrong');
+      }
+    }
+
+    function restartQuiz() {
+      playAudioFx('click');
+      currentQuestion = 0;
+      score = 0;
+      document.getElementById('quizBox').classList.remove('hidden');
+      document.getElementById('resultBox').classList.add('hidden');
+      loadQuestion();
+    }
+
+    loadQuestion();
+  </script>
+</body>
+</html>
